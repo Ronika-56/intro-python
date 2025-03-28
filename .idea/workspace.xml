@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b320bdf-d399-4bb6-9ce0-15440a71119e" name="Changes" comment="python basics">
-      <change afterPath="$PROJECT_DIR$/black_white_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/milkbirdy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_center.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_classes2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_classes3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_classes4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_center.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "Python.lambda_functions.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.number_functions.executor": "Run",
+    "Python.python_classes.executor": "Run",
     "Python.python_dates.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.text_center.executor": "Run",
@@ -90,7 +92,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.text_center">
+  <component name="RunManager" selected="Python.python_classes">
     <configuration name="black_white_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-intro" />
       <option name="ENV_FILES" value="" />
@@ -160,6 +162,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="text_center" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-intro" />
       <option name="ENV_FILES" value="" />
@@ -183,36 +208,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try_catch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-intro" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try_catch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_classes" />
         <item itemvalue="Python.text_center" />
         <item itemvalue="Python.black_white_image" />
         <item itemvalue="Python.calculator" />
         <item itemvalue="Python.files" />
-        <item itemvalue="Python.try_catch" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +251,8 @@
       <workItem from="1742901007955" duration="6000" />
       <workItem from="1742982978203" duration="7436000" />
       <workItem from="1742988266385" duration="84000" />
-      <workItem from="1743052804118" duration="8159000" />
+      <workItem from="1743052804118" duration="8211000" />
+      <workItem from="1743140952500" duration="7100000" />
     </task>
     <task id="LOCAL-00001" summary="intro to python">
       <option name="closed" value="true" />
@@ -331,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742976193475</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="python basics">
+      <option name="closed" value="true" />
+      <created>1743062144004</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743062144004</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +362,7 @@
     <SUITE FILE_PATH="coverage/Python_intro$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1742455782309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_intro$number_functions.coverage" NAME="number_functions Coverage Results" MODIFIED="1742362256099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_intro$intro_python.coverage" NAME="intro-python Coverage Results" MODIFIED="1741935437421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_intro$python_classes.coverage" NAME="python_classes Coverage Results" MODIFIED="1743145514284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_intro$intro.coverage" NAME="intro Coverage Results" MODIFIED="1741933657312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Python_intro$data_structure.coverage" NAME="data_structure Coverage Results" MODIFIED="1742370030149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_intro$lambda_functions.coverage" NAME="lambda_functions Coverage Results" MODIFIED="1742886230452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

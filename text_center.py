@@ -7,7 +7,7 @@ img =Image.open('images/milkbirdy.jpg')
 
 img2 =ImageDraw.Draw(img)
 
-img2 =text()
+
 
 myFont = ImageFont.truetype("arial.ttf", size=20)
 
